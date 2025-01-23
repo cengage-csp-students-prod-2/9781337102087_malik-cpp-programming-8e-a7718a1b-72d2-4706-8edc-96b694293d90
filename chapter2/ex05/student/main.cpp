@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 
@@ -15,7 +16,7 @@ int main(){
 
     cout << endl;
 
-
+    area = PI * pow(radius,2);
 
 
     cout << "Area = " << area << endl;
