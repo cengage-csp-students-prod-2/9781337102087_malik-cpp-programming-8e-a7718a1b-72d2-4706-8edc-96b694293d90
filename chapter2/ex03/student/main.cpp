@@ -8,7 +8,7 @@ int main()
     num3 = -25;
     average = 0;
     average = (num1 + num2 + num3) / 3;
-    cout << "The average is: " << average << endl;
+    cout << "The average is: " << average << "the numbers are " << num1 <<" " << num2 << " " << num3 <<" " << endl;
     return 0;
 }
 
