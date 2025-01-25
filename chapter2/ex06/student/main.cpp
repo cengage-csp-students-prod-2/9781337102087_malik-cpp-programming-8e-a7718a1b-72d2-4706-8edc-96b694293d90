@@ -13,8 +13,8 @@ int main() {
     cout << "Enter the number of hours you study: ";
     cin >> studyHours;
 
-    cout << "Name: " << name << endl;
-    cout << "Study Hours: " << studyHours << endl;
+    cout << "Hello " << name << " "<< " On Saturday, you need to "<<  endl;
+    cout << "study hours  " << studyHours << endl;
 
     return 0;
 }
