@@ -3,16 +3,18 @@ Status: FAILED!
 Check: 1
 Test: Test case 1
 Reason: Unable to find '['Hello,', 'joe!', 'On', 'Saturday,', 'you', 'need', 'to', 'study', '10', 'hours', 'for', 'the', 'exam.']' in the program's output.
-joe
+Enter your name: Enter the number of hours you study: Name: joe
+Study Hours: 10
 .
 Error : AssertionError - Unable to find Hello, in the program's output.
-Timestamp: 2025-01-25 21:10:57.702604
+Timestamp: 2025-01-25 21:12:43.395691
 
 Status: FAILED!
 Check: 2
 Test: Test case 2
 Reason: Unable to find '['Hello,', 'Donald!', 'On', 'Saturday,', 'you', 'need', 'to', 'study', '4.5', 'hours', 'for', 'the', 'exam.']' in the program's output.
-Donald
+Enter your name: Enter the number of hours you study: Name: Donald
+Study Hours: 4.5
 .
 Error : AssertionError - Unable to find Hello, in the program's output.
-Timestamp: 2025-01-25 21:10:57.704645
+Timestamp: 2025-01-25 21:12:43.399811

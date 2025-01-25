@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Variable `studyHours` declared of type `double`
-Reason: Unable to find 'double studyHours;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-01-25 21:10:57.699439
+Reason: double studyHours; + ` was found in the program.None
+Timestamp: 2025-01-25 21:12:43.390052
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Variable `name` declared of type `string`
-Reason: Unable to find 'string name;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-01-25 21:10:57.699671
+Reason: string name; + ` was found in the program.None
+Timestamp: 2025-01-25 21:12:43.390374
