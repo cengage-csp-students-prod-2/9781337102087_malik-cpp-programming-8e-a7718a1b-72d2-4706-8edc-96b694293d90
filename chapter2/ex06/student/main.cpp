@@ -7,14 +7,16 @@ int main() {
     string name;
     double studyHours;
 
+    // Prompt user for input
     cout << "Enter your name: ";
     cin >> name;
 
     cout << "Enter the number of hours you study: ";
     cin >> studyHours;
 
-    cout << "Hello " << name << " "<< " On Saturday, you need to "<<  endl;
-    cout << "study hours  " << studyHours << endl;
+    // Output the result in the required format
+    cout << "Hello, " << name << "! On Saturday, you need to study " 
+         << studyHours << " hours for the exam." << endl;
 
     return 0;
 }
