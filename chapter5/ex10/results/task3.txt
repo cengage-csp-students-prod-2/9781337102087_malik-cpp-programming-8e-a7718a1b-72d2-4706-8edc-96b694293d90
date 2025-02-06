@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Output sum of the numbers between `firstNum` and `secondNum` case 1
 Reason: None
-Timestamp: 2025-02-06 23:39:55.397086
+Timestamp: 2025-02-06 23:40:36.612057
 
 Status: PASSED!
 Check: 2
 Test: Output sum of the numbers between `firstNum` and `secondNum` case 2
 Reason: None
-Timestamp: 2025-02-06 23:39:55.401391
+Timestamp: 2025-02-06 23:40:36.614096

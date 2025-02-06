@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Output the numbers and their squares between 1 and 10 case 1
 Reason: None
-Timestamp: 2025-02-06 23:39:55.405780
+Timestamp: 2025-02-06 23:40:36.616424
 
 Status: PASSED!
 Check: 2
 Test: Output the numbers and their squares between 1 and 10 case 2
 Reason: None
-Timestamp: 2025-02-06 23:39:55.408965
+Timestamp: 2025-02-06 23:40:36.618443

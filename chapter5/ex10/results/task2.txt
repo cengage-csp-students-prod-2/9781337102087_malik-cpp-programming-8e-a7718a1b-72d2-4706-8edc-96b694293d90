@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Output all odd numbers between `firstNum` and `secondNum` case 1
 Reason: None
-Timestamp: 2025-02-06 23:39:55.390618
+Timestamp: 2025-02-06 23:40:36.607651
 
 Status: PASSED!
 Check: 2
 Test: Output all odd numbers between `firstNum` and `secondNum` case 2
 Reason: None
-Timestamp: 2025-02-06 23:39:55.393981
+Timestamp: 2025-02-06 23:40:36.609915
