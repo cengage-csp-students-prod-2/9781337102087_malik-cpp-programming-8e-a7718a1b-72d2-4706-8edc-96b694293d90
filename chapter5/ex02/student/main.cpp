@@ -21,7 +21,7 @@ int main()
 
     pi = 4 * pi; // Multiply the sum by 4 after loop
 
-    cout << fixed << setprecision(10);
+    cout << fixed << setprecision(5);
     cout << "\npi = " << pi << endl;
 
     return 0;
