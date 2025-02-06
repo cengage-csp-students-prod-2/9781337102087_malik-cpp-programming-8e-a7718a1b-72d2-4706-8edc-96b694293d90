@@ -5,25 +5,24 @@ using namespace std;
 
 int main()
 {
-    double pi = 0;
-    long i;
-    long n;
-    
-    cin >> n;
+    double pi = 0.0;
+    long i, n;
+
     cout << "Enter the value of n: ";
-    cout << endl;
-    
-    if (i % 2 == 0)
-        pi = pi + (1 / (2 * i + 1));
-    else
-        pi = pi - (1 / (2 * i + 1));
-    
+    cin >> n;
+
     for (i = 0; i < n; i++)
     {
-        pi = 0;
-        pi = 4 * pi;
+        if (i % 2 == 0)
+            pi = pi + (1.0 / (2 * i + 1));
+        else
+            pi = pi - (1.0 / (2 * i + 1));
     }
-    
-    cout << endl << "pi = " << pi << endl;
+
+    pi = 4 * pi; // Multiply the sum by 4 after loop
+
+    cout << fixed << setprecision(10);
+    cout << "\npi = " << pi << endl;
+
     return 0;
 }
