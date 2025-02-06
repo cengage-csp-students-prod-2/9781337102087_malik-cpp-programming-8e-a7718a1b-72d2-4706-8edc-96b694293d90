@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Output the sum of the square of the odd numbers between `firstNum` and `secondNum` case 1
+Reason: None
+Timestamp: 2025-02-06 23:39:55.412124
+
+Status: PASSED!
+Check: 2
+Test: Output the sum of the square of the odd numbers between `firstNum` and `secondNum` case 2
+Reason: None
+Timestamp: 2025-02-06 23:39:55.416914
