@@ -1,25 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Uses function `reverseDigit`
-Reason: Unable to find 'int reverseDigit(int num);' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 01:46:41.652221
+Reason: int reverseDigit(int num); + ` was found in the program.None
+Timestamp: 2025-02-16 01:48:00.548139
 
 Status: PASSED!
 Check: 2
 Test: Successful Output
 Reason: None
-Timestamp: 2025-02-16 01:46:41.654861
+Timestamp: 2025-02-16 01:48:00.550671
 
 Status: PASSED!
 Check: 3
 Test: Successful Output II
 Reason: None
-Timestamp: 2025-02-16 01:46:41.656884
+Timestamp: 2025-02-16 01:48:00.552653
 
 Status: PASSED!
 Check: 4
 Test: Successful Output III
 Reason: None
-Timestamp: 2025-02-16 01:46:41.658853
+Timestamp: 2025-02-16 01:48:00.554634
