@@ -3,46 +3,40 @@ Status: PASSED!
 Check: 1
 Test: Uses function `isPalindrome
 Reason:  isPalindrome(string str) + ` was found in the program.None
-Timestamp: 2025-02-16 02:21:26.906804
+Timestamp: 2025-02-16 17:17:33.131102
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Tested `isPalindrome` with the "Madam" string argument
-Reason: Unable to find 'isPalindrome("Madam")' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 02:21:26.907190
+Reason: isPalindrome("Madam") + ` was found in the program.None
+Timestamp: 2025-02-16 17:17:33.131395
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Tested `isPalindrome` with the "abBa" string argument
-Reason: Unable to find 'isPalindrome("abBa")' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 02:21:26.907491
+Reason: isPalindrome("abBa") + ` was found in the program.None
+Timestamp: 2025-02-16 17:17:33.131620
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Tested `isPalindrome` with the "22" string argument
-Reason: Unable to find 'isPalindrome("22")' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 02:21:26.907774
+Reason: isPalindrome("22") + ` was found in the program.None
+Timestamp: 2025-02-16 17:17:33.131830
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: Tested `isPalindrome` with the "67876" string argument
-Reason: Unable to find 'isPalindrome("67876")' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 02:21:26.908069
+Reason: isPalindrome("67876") + ` was found in the program.None
+Timestamp: 2025-02-16 17:17:33.132030
 
-Status: FAILED!
+Status: PASSED!
 Check: 6
 Test: Tested `isPalindrome` with the "444244" string argument
-Reason: Unable to find 'isPalindrome("444244")' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 02:21:26.908346
+Reason: isPalindrome("444244") + ` was found in the program.None
+Timestamp: 2025-02-16 17:17:33.132227
 
-Status: FAILED!
+Status: PASSED!
 Check: 7
 Test: Tested `isPalindrome` with the "trYmeuemyRT" string argument
-Reason: Unable to find 'isPalindrome("trYmeuemyRT")' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-16 02:21:26.908604
+Reason: isPalindrome("trYmeuemyRT") + ` was found in the program.None
+Timestamp: 2025-02-16 17:17:33.132420
