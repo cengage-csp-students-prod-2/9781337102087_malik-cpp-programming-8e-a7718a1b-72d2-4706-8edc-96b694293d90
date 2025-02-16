@@ -3,46 +3,46 @@ Status: PASSED!
 Check: 1
 Test: Uses function `isPalindrome
 Reason:  isPalindrome(string str) + ` was found in the program.None
-Timestamp: 2025-02-16 01:54:50.682413
+Timestamp: 2025-02-16 01:58:21.528934
 
 Status: FAILED!
 Check: 2
 Test: Tested `isPalindrome` with the "Madam" string argument
 Reason: Unable to find 'isPalindrome("Madam")' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-16 01:54:50.682779
+Timestamp: 2025-02-16 01:58:21.529281
 
 Status: FAILED!
 Check: 3
 Test: Tested `isPalindrome` with the "abBa" string argument
 Reason: Unable to find 'isPalindrome("abBa")' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-16 01:54:50.683057
+Timestamp: 2025-02-16 01:58:21.529577
 
 Status: FAILED!
 Check: 4
 Test: Tested `isPalindrome` with the "22" string argument
 Reason: Unable to find 'isPalindrome("22")' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-16 01:54:50.683309
+Timestamp: 2025-02-16 01:58:21.529834
 
 Status: FAILED!
 Check: 5
 Test: Tested `isPalindrome` with the "67876" string argument
 Reason: Unable to find 'isPalindrome("67876")' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-16 01:54:50.683552
+Timestamp: 2025-02-16 01:58:21.530089
 
 Status: FAILED!
 Check: 6
 Test: Tested `isPalindrome` with the "444244" string argument
 Reason: Unable to find 'isPalindrome("444244")' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-16 01:54:50.683815
+Timestamp: 2025-02-16 01:58:21.530337
 
 Status: FAILED!
 Check: 7
 Test: Tested `isPalindrome` with the "trYmeuemyRT" string argument
 Reason: Unable to find 'isPalindrome("trYmeuemyRT")' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-16 01:54:50.684061
+Timestamp: 2025-02-16 01:58:21.530618
