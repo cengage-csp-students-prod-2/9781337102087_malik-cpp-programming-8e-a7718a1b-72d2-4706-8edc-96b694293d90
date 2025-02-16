@@ -19,15 +19,15 @@ bool isPalindrome(string str) {
 }// isPalindrome
 
 int main() {
-    // List of strings to test
-    string testStrings[] = {"madam", "abba", "22", "67876", "444244", "trymeuemyrt"};
+    // Test strings
+    string testStrings[] = {"Madam", "abBa", "22", "67876", "444244", "trYmeuemyRT"};
     
     // Loop through each string and check if it is a palindrome
     for (const string& str : testStrings) {
         if (isPalindrome(str)) {
-            cout << str << " is a palindrome" << endl;
+            cout << str << " is a palindrome." << endl;
         } else {
-            cout << str << " is not a palindrome" << endl;
+            cout << str << " is not a palindrome." << endl;
         }
     }
     
