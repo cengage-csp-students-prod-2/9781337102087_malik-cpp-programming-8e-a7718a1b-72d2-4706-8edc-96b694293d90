@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+int reverseDigit(int num);
 int reverseDigit(int num) {
     bool isNegative = num < 0;  
     num = abs(num); 
@@ -20,7 +20,7 @@ int main() {
     int input;
     cin >> input;
 
-    cout << "Reverse of 12345: " << reverseDigit(input) << endl;
+    cout << "Reverse of " << reverseDigit(input) << endl;
 
 
     return 0;
