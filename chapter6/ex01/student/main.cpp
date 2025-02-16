@@ -1,12 +1,11 @@
 #include <iostream>
 #include <algorithm>  // For transform()
-
 using namespace std;
 
 // Function to check if a string is a palindrome (case-insensitive)
 bool isPalindrome(string str) {
     int length = str.length();
-    
+
     // Convert the string to lowercase for case insensitivity
     transform(str.begin(), str.end(), str.begin(), ::tolower);
 
@@ -19,16 +18,15 @@ bool isPalindrome(string str) {
 }
 
 int main() {
-    string input;
-    
-    cout << "Enter a string: ";
-    cin >> input;
+    // Required test cases
+    string testCases[] = {"Madam", "abBa", "22", "67876", "444244", "trYmeuemyRT"};
 
-    if (isPalindrome(input)) {
-        cout << input << " is a palindrome" << endl;
-    } else {
-        cout << input << " is not a palindrome" << endl;
+    // Loop through test cases and check if each is a palindrome
+    for (string str : testCases) {
+        cout << "isPalindrome(\"" << str << "\") = " 
+             << (isPalindrome(str) ? "true" : "false") << endl;
     }
 
     return 0;
 }
+
