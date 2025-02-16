@@ -1,0 +1,9 @@
+
+Status: FAILED!
+Check: 1
+Test: Test for palindromes
+Reason: Unable to find '['Madam is a palindrome.', '22 is a palindrome.', 'abBa is a palindrome.', '67876 is a palindrome.', '444244 is not a palindrome.', 'trYmeuemyRT is a palindrome.']' in the program's output.
+Enter a string:  is a palindrome
+.
+Error : AssertionError - Unable to find Madam is a palindrome. in the program's output.
+Timestamp: 2025-02-16 01:54:50.691021

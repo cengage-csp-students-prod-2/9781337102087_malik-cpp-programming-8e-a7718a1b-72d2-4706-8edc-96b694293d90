@@ -1,0 +1,6 @@
+#include <string>
+TEST(isPalindrome, 1) {
+    ASSERT_EQUALS(isPalindrome("civic"), true);
+}TEST(isPalindrome, 2) {
+    ASSERT_EQUALS(isPalindrome("palindrome"), false);
+}
