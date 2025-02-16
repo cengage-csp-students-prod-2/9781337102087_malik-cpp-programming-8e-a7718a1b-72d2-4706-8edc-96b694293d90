@@ -18,15 +18,18 @@ bool isPalindrome(string str) {
 }
 
 int main() {
-    // Required test cases
-    string testCases[] = {"Madam", "abBa", "22", "67876", "444244", "trYmeuemyRT"};
+    string input;
+    
+    // Prompt the user to enter a string
+    cout << "Enter a string: ";
+    cin >> input;
 
-    // Loop through test cases and check if each is a palindrome
-    for (string str : testCases) {
-        cout << "isPalindrome(\"" << str << "\") = " 
-             << (isPalindrome(str) ? "true" : "false") << endl;
+    // Check if the entered string is a palindrome and display result
+    if (isPalindrome(input)) {
+        cout << input << " is a palindrome" << endl;
+    } else {
+        cout << input << " is not a palindrome" << endl;
     }
 
     return 0;
 }
-
