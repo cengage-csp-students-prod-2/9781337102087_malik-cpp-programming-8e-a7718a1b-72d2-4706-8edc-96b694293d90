@@ -1,35 +1,35 @@
 #include <iostream>
-#include <algorithm>  // For transform()
+#include <string>
+#include <algorithm> // for std::transform
+
 using namespace std;
 
 // Function to check if a string is a palindrome (case-insensitive)
 bool isPalindrome(string str) {
-    int length = str.length();
-
-    // Convert the string to lowercase for case insensitivity
+    // Convert the string to lowercase
     transform(str.begin(), str.end(), str.begin(), ::tolower);
-
+    
+    int length = str.length(); 
     for (int i = 0; i < length / 2; i++) {
         if (str[i] != str[length - 1 - i]) {
             return false;
-        }
-    }
+        } // if    
+    } // for loop
     return true;
-}
+}// isPalindrome
 
 int main() {
-    string input;
+    // List of strings to test
+    string testStrings[] = {"madam", "abba", "22", "67876", "444244", "trymeuemyrt"};
     
-    // Prompt the user to enter a string
-    cout << "Enter a string: ";
-    cin >> input;
-
-    // Check if the entered string is a palindrome and display result
-    if (isPalindrome(input)) {
-        cout << input << " is a palindrome" << endl;
-    } else {
-        cout << input << " is not a palindrome" << endl;
+    // Loop through each string and check if it is a palindrome
+    for (const string& str : testStrings) {
+        if (isPalindrome(str)) {
+            cout << str << " is a palindrome" << endl;
+        } else {
+            cout << str << " is not a palindrome" << endl;
+        }
     }
-
+    
     return 0;
 }
