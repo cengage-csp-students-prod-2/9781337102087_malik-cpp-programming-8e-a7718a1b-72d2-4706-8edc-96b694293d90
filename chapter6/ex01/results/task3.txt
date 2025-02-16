@@ -3,12 +3,7 @@ Status: FAILED!
 Check: 1
 Test: Test for palindromes
 Reason: Unable to find '['Madam is a palindrome.', '22 is a palindrome.', 'abBa is a palindrome.', '67876 is a palindrome.', '444244 is not a palindrome.', 'trYmeuemyRT is a palindrome.']' in the program's output.
-isPalindrome("Madam") = true
-isPalindrome("abBa") = true
-isPalindrome("22") = true
-isPalindrome("67876") = true
-isPalindrome("444244") = false
-isPalindrome("trYmeuemyRT") = true
+Enter a string:  is a palindrome
 .
 Error : AssertionError - Unable to find Madam is a palindrome. in the program's output.
-Timestamp: 2025-02-16 01:58:21.537762
+Timestamp: 2025-02-16 02:00:31.359282
