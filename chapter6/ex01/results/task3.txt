@@ -1,14 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test for palindromes
-Reason: Unable to find '['Madam is a palindrome.', '22 is a palindrome.', 'abBa is a palindrome.', '67876 is a palindrome.', '444244 is not a palindrome.', 'trYmeuemyRT is a palindrome.']' in the program's output.
-madam is a palindrome
-abba is a palindrome
-22 is a palindrome
-67876 is a palindrome
-444244 is not a palindrome
-trymeuemyrt is a palindrome
-.
-Error : AssertionError - Unable to find Madam is a palindrome. in the program's output.
-Timestamp: 2025-02-16 02:07:49.722807
+Reason: None
+Timestamp: 2025-02-16 02:16:33.722672
