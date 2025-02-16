@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Function for Exercise 23
+
 void processNumber(int num) {
     if (num % 2 == 0) {
         cout << "Result: " << num * 2 << endl;
@@ -11,10 +11,10 @@ void processNumber(int num) {
     }
 }
 
-// Function for Exercise 26
+
 void sumAndAverage(int n, int m) {
     if (n > m) {
-        swap(n, m);  // Ensure n is smaller for correct range
+        swap(n, m);  
     }
 
     int sum = 0, count = 0;
@@ -30,12 +30,10 @@ void sumAndAverage(int n, int m) {
 int main() {
     int num, n, m;
 
-    // Exercise 23: Process a single number
     cout << "Enter an integer: ";
     cin >> num;
     processNumber(num);
 
-    // Exercise 26: Process range of numbers
     cout << "Enter two integers (separated by space): ";
     cin >> n >> m;
     sumAndAverage(n, m);
