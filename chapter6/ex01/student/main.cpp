@@ -1,7 +1,12 @@
 #include <iostream>
 #include <string>
 #include <algorithm> // for std::transform
-
+// isPalindrome("Madam")
+// isPalindrome("abBa")
+// isPalindrome("22")
+// isPalindrome("67876")
+// isPalindrome("444244")
+// isPalindrome("trYmeuemyRT")
 using namespace std;
 
 // Function to check if a string is a palindrome (case-insensitive)
