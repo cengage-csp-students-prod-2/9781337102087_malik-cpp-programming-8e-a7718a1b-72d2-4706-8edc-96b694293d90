@@ -26,8 +26,13 @@ int main() {
     for (const string& str : testStrings) {
         if (isPalindrome(str)) {
             cout << str << " is a palindrome." << endl;
+            cout << "isPalindrome(\"" << str << "\") = " 
+             << (isPalindrome(str) ? "true" : "false") << endl;
+            
         } else {
             cout << str << " is not a palindrome." << endl;
+            cout << "isPalindrome(\"" << str << "\") = " 
+             << (isPalindrome(str) ? "true" : "false") << endl;
         }
     }
     
