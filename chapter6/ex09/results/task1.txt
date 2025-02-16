@@ -1,0 +1,25 @@
+
+Status: FAILED!
+Check: 1
+Test: Uses function `reverseDigit`
+Reason: Unable to find 'int reverseDigit(int num);' in the program.
+Error : str - AssertionError
+Timestamp: 2025-02-16 01:46:41.652221
+
+Status: PASSED!
+Check: 2
+Test: Successful Output
+Reason: None
+Timestamp: 2025-02-16 01:46:41.654861
+
+Status: PASSED!
+Check: 3
+Test: Successful Output II
+Reason: None
+Timestamp: 2025-02-16 01:46:41.656884
+
+Status: PASSED!
+Check: 4
+Test: Successful Output III
+Reason: None
+Timestamp: 2025-02-16 01:46:41.658853
