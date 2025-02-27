@@ -4,20 +4,16 @@ Check: 1
 Test: Check for output `cout` headers in code
 Reason: Unable to find 'cout << "Candidate     Votes Received   % of Total Votes"' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-27 20:46:30.935846
+Timestamp: 2025-02-27 20:48:15.430661
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Check for winner `cout` in code
-Reason: Unable to find 'cout << "The Winner of the Election is " ' in the program.
-Error : str - AssertionError
-Timestamp: 2025-02-27 20:46:30.936281
+Reason: cout << "The Winner of the Election is "  + ` was found in the program.None
+Timestamp: 2025-02-27 20:48:15.431094
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Successful Output
-Reason: Unable to find '['Richmond', '5000', '2.18', 'Johns', '60000 26.20', 'Hopkins 25000 10.92', 'Smith 80000 34.93', 'McCoy 59000 25.76', 'The Winner of the Election is Smith']' in the program's output.
-0
-.
-Error : AssertionError - Unable to find Richmond in the program's output.
-Timestamp: 2025-02-27 20:46:30.940972
+Reason: None
+Timestamp: 2025-02-27 20:48:15.436440
