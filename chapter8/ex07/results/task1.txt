@@ -4,16 +4,16 @@ Check: 1
 Test: Check for output `cout` headers in code
 Reason: Unable to find 'cout << "Candidate     Votes Received   % of Total Votes"' in the program.
 Error : str - AssertionError
-Timestamp: 2025-02-27 20:48:15.430661
+Timestamp: 2025-02-27 20:49:32.076279
 
 Status: PASSED!
 Check: 2
 Test: Check for winner `cout` in code
 Reason: cout << "The Winner of the Election is "  + ` was found in the program.None
-Timestamp: 2025-02-27 20:48:15.431094
+Timestamp: 2025-02-27 20:49:32.076591
 
 Status: PASSED!
 Check: 3
 Test: Successful Output
 Reason: None
-Timestamp: 2025-02-27 20:48:15.436440
+Timestamp: 2025-02-27 20:49:32.079516
