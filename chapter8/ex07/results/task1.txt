@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Check for output `cout` headers in code
 Reason: cout << "Candidate     Votes Received   % of Total Votes" + ` was found in the program.None
-Timestamp: 2025-02-27 20:53:01.189901
+Timestamp: 2025-02-27 20:54:08.610965
 
 Status: PASSED!
 Check: 2
 Test: Check for winner `cout` in code
 Reason: cout << "The Winner of the Election is "  + ` was found in the program.None
-Timestamp: 2025-02-27 20:53:01.190218
+Timestamp: 2025-02-27 20:54:08.611398
 
 Status: PASSED!
 Check: 3
 Test: Successful Output
 Reason: None
-Timestamp: 2025-02-27 20:53:01.193161
+Timestamp: 2025-02-27 20:54:08.615511
