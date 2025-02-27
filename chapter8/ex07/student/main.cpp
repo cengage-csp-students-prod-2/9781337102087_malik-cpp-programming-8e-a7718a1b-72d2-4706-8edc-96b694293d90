@@ -41,7 +41,7 @@ int main() {
     int totalVotes = calculateTotalVotes(votes, NUM_CANDIDATES);
     string winner = determineWinner(candidates, votes, NUM_CANDIDATES);
     
-    cout << "\nCandidate    Votes Received   % of Total Votes\n";
+    cout << "\nCandidate    Votes Received   % of Total Votes";
     cout << fixed << setprecision(2);
     for (int i = 0; i < NUM_CANDIDATES; i++) {
         double percentage = (static_cast<double>(votes[i]) / totalVotes) * 100;
