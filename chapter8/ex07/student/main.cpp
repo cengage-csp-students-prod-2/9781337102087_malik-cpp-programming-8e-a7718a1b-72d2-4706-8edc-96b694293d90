@@ -6,7 +6,7 @@ using namespace std;
 
 const int NUM_CANDIDATES = 5;
 
-int calculateTotalVotes(int votes[], int size) {
+int calTotalVotes(int votes[], int size) {
     int total = 0;
     for (int i = 0; i < size; i++) {
         total += votes[i];
@@ -38,7 +38,7 @@ int main() {
         cin >> votes[i];
     }
     
-    int totalVotes = calculateTotalVotes(votes, NUM_CANDIDATES);
+    int totalVotes = calTotalVotes(votes, NUM_CANDIDATES);
     string winner = determineWinner(candidates, votes, NUM_CANDIDATES);
     
     cout << "Candidate    Votes Received   % of Total Votes";
