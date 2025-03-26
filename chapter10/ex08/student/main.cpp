@@ -1,23 +1,21 @@
+#include "dayType.h"
 #include <iostream>
-#include <string>
-  
-#include "dayType.h"  
-
-using namespace std;
 
 int main() {
-    dayType day("Wednesday");
-  
-    cout << "Initial day: " << day.getDay() << endl;
-  
-    cout << "Previous day: " << day.prevDay() << endl;
-    cout << "Next day: " << day.nextDay() << endl;
-  
-    cout << "Add 3 days: " << day.addDay(3) << endl;
-    cout << "Add 10 days: " << day.addDay(10) << endl;
-  
-    day.setDay("Monday");
-    day.print();
-  
+    dayType today("Tuesday");
+    today.print();
+
+    cout << "Next Day: " << today.nextDay() << endl;
+    cout << "Previous Day: " << today.prevDay() << endl;
+
+    today.addDay(5);
+    cout << "After adding 5 days: ";
+    today.print();
+
+    today.addDay(-3);
+    cout << "After subtracting 3 days: ";
+    today.print();
+
     return 0;
-  }
+}
+

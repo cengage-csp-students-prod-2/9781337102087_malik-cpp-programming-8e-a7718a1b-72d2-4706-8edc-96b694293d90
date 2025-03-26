@@ -1,3 +1,4 @@
+//dayType.h
 #ifndef H_dayType
 #define H_dayType 
     
