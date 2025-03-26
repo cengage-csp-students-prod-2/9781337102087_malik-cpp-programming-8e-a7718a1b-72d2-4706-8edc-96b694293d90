@@ -1,56 +1,21 @@
 // counterType.h
-#ifndef COUNTERTYPE_H
-#define COUNTERTYPE_H
-
-#include <iostream>
-using namespace std;
+#ifndef COUNTER_TYPE_H
+#define COUNTER_TYPE_H
 
 class counterType {
-private:
-    int counter;
-
 public:
-    // Default constructor: initialize counter to 0
-    counterType() {
-        counter = 0;
-    }
+    counterType();                  // Default constructor
+    counterType(int c);             // Parameterized constructor
 
-    // Parameterized constructor
-    counterType(int c) {
-        if (c >= 0)
-            counter = c;
-        else
-            counter = 0;  // Counter must be non-negative
-    }
+    void setCounter(int c);         // Set counter
+    int getCounter() const;         // Get counter value
 
-    // Set counter to a specific value
-    void setCounter(int c) {
-        if (c >= 0)
-            counter = c;
-        else
-            counter = 0;  // Ensure it's non-negative
-    }
+    void incrementCounter();        // Increment counter
+    void decrementCounter();        // Decrement counter
+    void print() const;             // Print counter
 
-    // Get current counter value
-    int getCounter() const {
-        return counter;
-    }
-
-    // Increment counter by 1
-    void incrementCounter() {
-        counter++;
-    }
-
-    // Decrement counter by 1 (but don't allow it to go negative)
-    void decrementCounter() {
-        if (counter > 0)
-            counter--;
-    }
-
-    // Print the counter value
-    void print() const {
-        cout << "Counter = " << counter << endl;
-    }
+private:
+    int counter;                    // Holds the counter value
 };
 
 #endif

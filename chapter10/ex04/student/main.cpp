@@ -1,4 +1,4 @@
-//Main program
+//main.cpp
   
 #include <iostream>
 #include "counterType.h"
