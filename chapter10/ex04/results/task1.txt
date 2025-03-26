@@ -1,7 +1,7 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:29:56.009124
+Test: Included the private member variable `counter`
+Reason: private:
+    int counter; + ` was found in the program.None
+Timestamp: 2025-03-26 01:32:28.220888

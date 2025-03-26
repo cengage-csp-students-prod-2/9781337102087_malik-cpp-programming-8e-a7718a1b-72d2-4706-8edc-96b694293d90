@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:29:56.009320
+Test: `counterType`'s `getCounter` returns the value of `counter`, test 1
+Reason: None
+Timestamp: 2025-03-26 01:32:28.223841
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:29:56.009430
+Test: `counterType`'s `getCounter` returns the value of `counter`, test 2
+Reason: None
+Timestamp: 2025-03-26 01:32:28.226258
