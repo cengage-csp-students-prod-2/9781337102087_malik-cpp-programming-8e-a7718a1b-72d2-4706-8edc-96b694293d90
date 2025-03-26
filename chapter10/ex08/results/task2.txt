@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:17:16.998018
+Test: The `dayType` member function `prevDay` works as expected
+Reason: None
+Timestamp: 2025-03-26 01:24:51.762005
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:17:16.998141
+Test: The `dayType` member variable `nextDay` works as expected
+Reason: None
+Timestamp: 2025-03-26 01:24:51.764351
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:17:16.998316
+Test: The `dayType` member variable `addDay` works as expected
+Reason: None
+Timestamp: 2025-03-26 01:24:51.769012

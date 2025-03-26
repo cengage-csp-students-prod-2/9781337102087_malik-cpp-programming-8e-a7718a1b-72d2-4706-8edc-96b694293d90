@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-03-26 01:17:16.997693
+Test: The `dayType` can be initialized
+Reason: None
+Timestamp: 2025-03-26 01:24:51.759505
