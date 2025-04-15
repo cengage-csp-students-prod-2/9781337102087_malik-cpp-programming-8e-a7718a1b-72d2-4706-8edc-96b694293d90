@@ -5,31 +5,16 @@
 using namespace std;
 
 int main() {
-    int numCandidates;
+    const int numCandidates = 5;
 
-    // Prompt user for number of candidates
-    cout << "Enter the number of candidates: ";
-    cin >> numCandidates;
-    cin.ignore(); // Clear newline after cin
+    // Task #01: Hardcoded candidate names and votes
+    string* candidates = new string[numCandidates] {
+        "Vader", "Kirk", "Adama", "Reynolds", "Oneill"
+    };
 
-    // Task #01: Dynamic array allocation
-    string* candidates = new string[numCandidates];
-    int* votes = new int[numCandidates];
-
-    // Initialize vote count to 0 (safety)
-    for (int i = 0; i < numCandidates; i++) {
-        votes[i] = 0;
-    }
-
-    // Input candidate names and votes
-    for (int i = 0; i < numCandidates; i++) {
-        cout << "Enter name for candidate #" << (i + 1) << ": ";
-        getline(cin, candidates[i]);
-
-        cout << "Enter votes received by " << candidates[i] << ": ";
-        cin >> votes[i];
-        cin.ignore(); // Flush newline after reading vote count
-    }
+    int* votes = new int[numCandidates] {
+        1300, 1250, 1000, 1615, 1470
+    };
 
     // Task #02: Calculate total votes
     int totalVotes = 0;
@@ -37,15 +22,16 @@ int main() {
         totalVotes += votes[i];
     }
 
-    // Display the election results
+    // Output header
     cout << fixed << setprecision(2);
-    cout << "\nCandidate\tVotes Received\t% of Total Votes\n";
+    cout << "Candidate\tVotes Received\t% of Total Votes\n";
 
+    // Find the winner and print results
     int maxVotes = -1;
     string winner;
 
     for (int i = 0; i < numCandidates; i++) {
-        double percent = (totalVotes > 0) ? (static_cast<double>(votes[i]) / totalVotes) * 100 : 0.0;
+        double percent = (static_cast<double>(votes[i]) / totalVotes) * 100;
         cout << candidates[i] << "\t" << votes[i] << "\t\t" << percent << endl;
 
         if (votes[i] > maxVotes) {
@@ -54,10 +40,11 @@ int main() {
         }
     }
 
+    // Output total and winner
     cout << "Total\t\t" << totalVotes << endl;
     cout << "The Winner of the Election is: " << winner << endl;
 
-    // Clean up memory
+    // Clean up
     delete[] candidates;
     delete[] votes;
 
