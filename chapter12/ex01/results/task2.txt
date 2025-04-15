@@ -1,0 +1,8 @@
+
+Status: PASSED!
+Check: 1
+Test: Created a dynamic array using the `new` keyword
+Reason: str = new char[strLen];
+
+ + ` was found in the program.None
+Timestamp: 2025-04-15 19:03:57.431365
