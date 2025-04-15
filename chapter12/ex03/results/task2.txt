@@ -14,4 +14,4 @@ Total		0
 The Winner of the Election is: Vader 1300
 .
 Error : AssertionError - Unable to find Vader\s+\d+\s+\d+\.\d+ in the program's output.
-Timestamp: 2025-04-15 19:16:42.670939
+Timestamp: 2025-04-15 19:17:07.763834
