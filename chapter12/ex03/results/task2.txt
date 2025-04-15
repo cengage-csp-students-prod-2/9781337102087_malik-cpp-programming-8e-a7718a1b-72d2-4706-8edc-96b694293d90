@@ -5,13 +5,13 @@ Test: Testing the correct calculation of election results
 Reason: Unable to find '['Candidate Votes Received % of Total Votes', 'Vader 1300 19.59', 'Kirk 1250 18.84', 'Adama 1000 15.07', 'Reynolds 1615 24.34', 'Oneill 1470 22.16', 'Total 6635', 'The Winner of the Election is: Reynolds']' in the program's output.
 Enter the number of candidates: Enter name for candidate #1: Enter votes received by Vader 1300: Enter name for candidate #2: Enter votes received by : Enter name for candidate #3: Enter votes received by : Enter name for candidate #4: Enter votes received by : Enter name for candidate #5: Enter votes received by : 
 Candidate	Votes Received	% of Total Votes
-Vader 1300		0		-nan
-		0		-nan
-		0		-nan
-		0		-nan
-		0		-nan
+Vader 1300	0		-nan
+	0		-nan
+	0		-nan
+	0		-nan
+	0		-nan
 Total		0
-The Winner of the Election is Vader 1300
+The Winner of the Election is: Vader 1300
 .
 Error : AssertionError - Unable to find Vader\s+\d+\s+\d+\.\d+ in the program's output.
-Timestamp: 2025-04-15 19:14:02.451245
+Timestamp: 2025-04-15 19:16:42.670939
