@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Overloaded comparison operators
 Reason: None
-Timestamp: 2025-04-15 19:45:51.693159
+Timestamp: 2025-04-15 19:46:36.203289
 
 Status: PASSED!
 Check: 2
 Test: Overloaded comparison operators
 Reason: None
-Timestamp: 2025-04-15 19:45:51.695699
+Timestamp: 2025-04-15 19:46:36.205630
 
 Status: PASSED!
 Check: 3
 Test: Overloaded comparison operators
 Reason: None
-Timestamp: 2025-04-15 19:45:51.697988
+Timestamp: 2025-04-15 19:46:36.207949
 
 Status: PASSED!
 Check: 4
 Test: Overloaded comparison operators
 Reason: None
-Timestamp: 2025-04-15 19:45:51.700293
+Timestamp: 2025-04-15 19:46:36.211286
