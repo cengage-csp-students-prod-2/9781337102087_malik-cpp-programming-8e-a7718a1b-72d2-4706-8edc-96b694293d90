@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Overloading the `+` operator
 Reason: None
-Timestamp: 2025-04-15 19:52:58.551195
+Timestamp: 2025-04-15 19:55:25.812453
 
 Status: PASSED!
 Check: 2
 Test: Overloading the `-` operator
 Reason: None
-Timestamp: 2025-04-15 19:52:58.553685
+Timestamp: 2025-04-15 19:55:25.814988
 
 Status: PASSED!
 Check: 3
 Test: Overloading the `*` operator
 Reason: None
-Timestamp: 2025-04-15 19:52:58.556041
+Timestamp: 2025-04-15 19:55:25.817438
 
 Status: PASSED!
 Check: 4
 Test: Overloading the `/` operator
 Reason: None
-Timestamp: 2025-04-15 19:52:58.558338
+Timestamp: 2025-04-15 19:55:25.819930
