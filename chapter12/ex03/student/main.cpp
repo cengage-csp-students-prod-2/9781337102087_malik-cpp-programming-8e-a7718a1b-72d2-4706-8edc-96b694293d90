@@ -16,7 +16,7 @@ int main() {
     string* candidates = new string[numCandidates];
     int* votes = new int[numCandidates];
 
- 
+  
     for (int i = 0; i < numCandidates; i++) {
         cout << "Enter name for candidate #" << (i + 1) << ": ";
         getline(cin, candidates[i]);
@@ -40,9 +40,8 @@ int main() {
     string winner = candidates[0];
 
     for (int i = 0; i < numCandidates; i++) {
-        double percentage = (static_cast<double>(votes[i]) / totalVotes) * 100.0;
-        cout << candidates[i] << "\t\t" << votes[i] << "\t\t" << percentage << endl;
-
+        double percent = (static_cast<double>(votes[i]) / totalVotes) * 100;
+        cout << candidates[i] << "\t" << votes[i] << "\t\t" << percent << endl;
 
         if (votes[i] > maxVotes) {
             maxVotes = votes[i];
@@ -51,7 +50,8 @@ int main() {
     }
 
     cout << "Total\t\t" << totalVotes << endl;
-    cout << "The Winner of the Election is " << winner << endl;
+    cout << "The Winner of the Election is: " << winner << endl;
+
 
     delete[] candidates;
     delete[] votes;
