@@ -1,127 +1,54 @@
 #include <iostream>
+#include "fractionType.h"
 
 using namespace std;
 
-class fractionType {
-private:
-    int numerator;
-    int denominator;
-
-public:
-    // Constructor
-    fractionType() {
-        numerator = 0;
-        denominator = 1;
-    }
-
-    // Set values
-    void setFraction(int num, int denom) {
-        numerator = num;
-        if (denom == 0) {
-            cout << "Denominator cannot be 0. Defaulting to 1." << endl;
-            denominator = 1;
-        } else {
-            denominator = denom;
-        }
-    }
-
-    // Overload arithmetic operators
-    fractionType operator+(fractionType other) {
-        fractionType result;
-        result.numerator = numerator * other.denominator + other.numerator * denominator;
-        result.denominator = denominator * other.denominator;
-        return result;
-    }
-
-    fractionType operator-(fractionType other) {
-        fractionType result;
-        result.numerator = numerator * other.denominator - other.numerator * denominator;
-        result.denominator = denominator * other.denominator;
-        return result;
-    }
-
-    fractionType operator*(fractionType other) {
-        fractionType result;
-        result.numerator = numerator * other.numerator;
-        result.denominator = denominator * other.denominator;
-        return result;
-    }
-
-    fractionType operator/(fractionType other) {
-        fractionType result;
-        result.numerator = numerator * other.denominator;
-        result.denominator = denominator * other.numerator;
-        return result;
-    }
-
-    // Overload comparison operators
-    bool operator==(fractionType other) {
-        return numerator * other.denominator == other.numerator * denominator;
-    }
-
-    bool operator!=(fractionType other) {
-        return !(*this == other);
-    }
-
-    bool operator<(fractionType other) {
-        return numerator * other.denominator < other.numerator * denominator;
-    }
-
-    bool operator<=(fractionType other) {
-        return *this < other || *this == other;
-    }
-
-    bool operator>(fractionType other) {
-        return !(*this <= other);
-    }
-
-    bool operator>=(fractionType other) {
-        return !(*this < other);
-    }
-
-    // Overload stream operators
-    friend istream& operator>>(istream& in, fractionType& f) {
-        char slash;
-        int num, denom;
-        in >> num >> slash >> denom;
-        f.setFraction(num, denom);
-        return in;
-    }
-
-    friend ostream& operator<<(ostream& out, const fractionType& f) {
-        out << f.numerator << "/" << f.denominator;
-        return out;
-    }
-};
-
 int main() {
     fractionType x, y, z;
-
-    cout << "Enter first fraction (e.g., 2/3): ";
+    char choice;
+    
+    cout << "Enter first fraction in the form a/b: ";
     cin >> x;
-
-    cout << "Enter second fraction (e.g., 3/4): ";
+    cout << "Enter second fraction in the form a/b: ";
     cin >> y;
-
+    
+    cout << "\nx = " << x << endl;
+    cout << "y = " << y << endl;
+    
+    // Test arithmetic operations
     z = x + y;
-    cout << x << " + " << y << " = " << z << endl;
-
+    cout << "\nx + y = " << z << endl;
+    
     z = x - y;
-    cout << x << " - " << y << " = " << z << endl;
-
+    cout << "x - y = " << z << endl;
+    
     z = x * y;
-    cout << x << " * " << y << " = " << z << endl;
-
+    cout << "x * y = " << z << endl;
+    
     z = x / y;
-    cout << x << " / " << y << " = " << z << endl;
-
-    cout << "\nComparison Results:\n";
-    cout << x << " == " << y << ": " << (x == y ? "true" : "false") << endl;
-    cout << x << " != " << y << ": " << (x != y ? "true" : "false") << endl;
-    cout << x << " <  " << y << ": " << (x < y ? "true" : "false") << endl;
-    cout << x << " <= " << y << ": " << (x <= y ? "true" : "false") << endl;
-    cout << x << " >  " << y << ": " << (x > y ? "true" : "false") << endl;
-    cout << x << " >= " << y << ": " << (x >= y ? "true" : "false") << endl;
-
+    cout << "x / y = " << z << endl;
+    
+    // Test relational operations
+    cout << "\nRelational operations:" << endl;
+    cout << "x == y: " << (x == y ? "true" : "false") << endl;
+    cout << "x != y: " << (x != y ? "true" : "false") << endl;
+    cout << "x < y: " << (x < y ? "true" : "false") << endl;
+    cout << "x <= y: " << (x <= y ? "true" : "false") << endl;
+    cout << "x > y: " << (x > y ? "true" : "false") << endl;
+    cout << "x >= y: " << (x >= y ? "true" : "false") << endl;
+    
+    // Test additional cases
+    fractionType a(1, 2), b(3, 4), c(2, 4);
+    cout << "\nAdditional tests:" << endl;
+    cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+    cout << "a + b = " << a + b << endl;
+    cout << "a == c: " << (a == c ? "true" : "false") << endl;
+    
+    // Test division by zero
+    fractionType zero(0, 1);
+    cout << "\nTesting division by zero (x / 0):" << endl;
+    z = x / zero;
+    cout << "Result: " << z << " (should be original fraction due to protection)" << endl;
+    
     return 0;
 }
