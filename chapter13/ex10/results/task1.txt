@@ -1,28 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-04-15 19:41:52.043648
+Test: Overloading the `+` operator
+Reason: None
+Timestamp: 2025-04-15 19:45:51.683669
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-04-15 19:41:52.043833
+Test: Overloading the `-` operator
+Reason: None
+Timestamp: 2025-04-15 19:45:51.686162
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-04-15 19:41:52.043918
+Test: Overloading the `*` operator
+Reason: None
+Timestamp: 2025-04-15 19:45:51.688561
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2025-04-15 19:41:52.043989
+Test: Overloading the `/` operator
+Reason: None
+Timestamp: 2025-04-15 19:45:51.690846
