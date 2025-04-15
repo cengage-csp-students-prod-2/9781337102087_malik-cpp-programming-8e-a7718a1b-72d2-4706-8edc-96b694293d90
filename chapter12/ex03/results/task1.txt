@@ -1,0 +1,7 @@
+
+Status: PASSED!
+Check: 1
+Test: Used dynamic arrays
+Reason: candidates = new string[numberOfCandidates];
+ + ` was found in the program.None
+Timestamp: 2025-04-15 19:14:02.447310
